@@ -42,4 +42,8 @@ b) A asserção é verdadeira e a razão é falsa. JavaScript não aceita a sobr
 
 ### 10 - Resposta
 
+Na questão 10, a herança foi desenvolvida através de um .extends da classe Pai: Produto, para classe filho: Livros. Para realizar a mudança de porcentagem de desconto no livro, basta declarar a porcentagem no constructor de cada uma das classes. 
+
+Na classe pai, foi declarado desconto de 0.1 (10%) e na classe filho de 0.2(20%) e manter a mesma função para ambos, apenas rodando novamente a função do calcularNota Produto através do super.calcularNota(this.porcento), assim passando o novo valor de porcentagem.
+
 [Código Programação - Exercício 10](exercicio10.js)
