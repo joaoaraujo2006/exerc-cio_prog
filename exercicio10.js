@@ -2,7 +2,7 @@ class Produto {
     constructor(nome, preco) {
         this.nome = nome;
         this.preco = preco;
-        this.porcento = 0.1;
+        this.porcento = 0.1; // Defi
     }
     calcularDesconto() {
 
